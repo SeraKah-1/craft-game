@@ -1,0 +1,10 @@
+{
+  "meta": { "topic": "Human Anatomy", "version": "1.0" },
+  "library": [
+    { "id": "base_1", "name": "Sel", "tier": 0, "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Animal_cell_structure_en.svg/300px-Animal_cell_structure_en.svg.png", "recipes": [] },
+    { "id": "base_2", "name": "Oksigen", "tier": 0, "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Oxygen_molecule.png/300px-Oxygen_molecule.png", "recipes": [] },
+    { "id": "base_3", "name": "Listrik", "tier": 0, "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Lightning_Volt.jpg/300px-Lightning_Volt.jpg", "recipes": [] },
+    { "id": "res_1", "name": "Energi (ATP)", "tier": 1, "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Cellular_respiration.gif/300px-Cellular_respiration.gif", "recipes": [["base_1", "base_2"]] },
+    { "id": "res_2", "name": "Saraf", "tier": 1, "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Neuron_Hand-tuned.svg/300px-Neuron_Hand-tuned.svg.png", "recipes": [["base_1", "base_3"]] }
+  ]
+}
